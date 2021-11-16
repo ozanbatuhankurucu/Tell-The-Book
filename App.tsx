@@ -8,16 +8,17 @@
  * @format
  */
 
+import 'react-native-gesture-handler';
 import React from 'react';
-import { SafeAreaView, ScrollView, Text } from 'react-native';
+import Spinner from 'react-native-loading-spinner-overlay';
+import AppContainer from './src/navigation/app.navigation';
 
 const App = (): React.ReactElement => {
   return (
-    <SafeAreaView>
-      <ScrollView contentInsetAdjustmentBehavior="automatic">
-        <Text>Hello World!</Text>
-      </ScrollView>
-    </SafeAreaView>
+    <>
+      <Spinner visible={false} />
+      <AppContainer />
+    </>
   );
 };
 
