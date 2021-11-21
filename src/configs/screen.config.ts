@@ -1,13 +1,15 @@
 // declaring a set of named constants
 export enum APP_SCREEN {
+  // Root navigators
   AUTH = 'Auth',
   MAIN = 'Main',
-
+  // Auth Screens
   LOG_IN = 'Login',
   SIGN_UP = 'SignUp',
   CONFIRM_SIGN_UP = 'ConfirmSignUp',
+
+  // Main Screens
   HOME = 'Home',
-  DASHBOARD = 'Dashboard',
 }
 
 export type RootStackParamList = {
@@ -18,5 +20,4 @@ export type RootStackParamList = {
   [APP_SCREEN.SIGN_UP]: undefined;
   [APP_SCREEN.CONFIRM_SIGN_UP]: undefined;
   [APP_SCREEN.HOME]: undefined;
-  [APP_SCREEN.DASHBOARD]: undefined;
 };

@@ -1,11 +1,17 @@
 import React from 'react';
-import { View, Text } from 'react-native';
-// Navigator icinde auth screenleri olacak.
+import { APP_SCREEN } from '@/configs';
+import { ConfirmSignUp, Login, SignUp } from '@/screens/auth';
+import { createStackNavigator } from '@react-navigation/stack';
+
+const { Navigator, Screen } = createStackNavigator();
+
 const AuthNavigator = () => {
   return (
-    <View>
-      <Text>Auth</Text>
-    </View>
+    <Navigator initialRouteName={APP_SCREEN.LOG_IN} screenOptions={{ headerShown: false }}>
+      <Screen name={APP_SCREEN.CONFIRM_SIGN_UP} component={ConfirmSignUp} />
+      <Screen name={APP_SCREEN.LOG_IN} component={Login} />
+      <Screen name={APP_SCREEN.SIGN_UP} component={SignUp} />
+    </Navigator>
   );
 };
 
