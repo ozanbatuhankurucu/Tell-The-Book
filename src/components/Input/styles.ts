@@ -1,4 +1,5 @@
 import { StyleSheet } from 'react-native';
+import { FONTS } from '@/styles';
 
 export const styles = StyleSheet.create({
   container: {
@@ -8,6 +9,7 @@ export const styles = StyleSheet.create({
     marginVertical: 10,
   },
   input: {
+    ...FONTS.s_NunitoSansRegular,
     padding: 15,
   },
 });

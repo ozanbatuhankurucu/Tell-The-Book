@@ -15,9 +15,9 @@ const RootNavigator = (): React.ReactElement => {
   return (
     <Navigator headerMode="none">
       {user ? (
-        <Screen name={APP_SCREEN.AUTH} component={AuthNavigator} />
-      ) : (
         <Screen name={APP_SCREEN.MAIN} component={MainNavigator} />
+      ) : (
+        <Screen name={APP_SCREEN.AUTH} component={AuthNavigator} />
       )}
     </Navigator>
   );

@@ -8,12 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		00E356F31AD99517003FC87E /* TellTheBookTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* TellTheBookTests.m */; };
+		123F61391CAB4C89B9B50332 /* Cinzel-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1DFCF89ED5C74DA29AFA7742 /* Cinzel-ExtraBold.ttf */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		1EED311B26694955A786DB9F /* NunitoSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D03BA7DF22634B27A6A83FDD /* NunitoSans-Bold.ttf */; };
+		2A22961BD3934B72AA4F4698 /* NunitoSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A1ED62B021164C85A072D6CB /* NunitoSans-Regular.ttf */; };
 		2FFFD0BB43E0D4D8FED9982D /* libPods-TellTheBook.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 126ECB880374CEDE1A967D5D /* libPods-TellTheBook.a */; };
+		497763292F4D451E8F3D159B /* Cinzel-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 917913CAECA44D509276AAEC /* Cinzel-SemiBold.ttf */; };
+		4FA3DBA5D12747B0AD6072AF /* Cinzel-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B7E527193AA947F597F4941C /* Cinzel-Medium.ttf */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		8E79FBAE2BBF4FC79D6121EB /* NunitoSans-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 85DC1858C8234B5AAB412E43 /* NunitoSans-ExtraBold.ttf */; };
+		A3EF7CDCB5214BB9A3C56432 /* NunitoSans-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6570BD0D694E4332ADCB9E0C /* NunitoSans-SemiBold.ttf */; };
+		AE0EAA8BF6584ADCB34A4203 /* Cinzel-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C5756AF9108C469785C2FA8F /* Cinzel-Black.ttf */; };
+		BA10544D4F434C59A2FD8F87 /* Cinzel-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6D278AE66E7646ACA9B16FCC /* Cinzel-Bold.ttf */; };
+		C9F864FE2E1D43399E66AA28 /* NunitoSans-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 621AB34F74454F78B65BA144 /* NunitoSans-Light.ttf */; };
+		CB48A1CA58CD471E8495E0E3 /* Cinzel-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DB307D7D1147485FB2217D46 /* Cinzel-Regular.ttf */; };
 		F61CB568B9A93EF19389194A /* libPods-TellTheBook-TellTheBookTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 58F3E1456E034C1266DB8E53 /* libPods-TellTheBook-TellTheBookTests.a */; };
+		FDEFAF0247CC4CA8A3DC012E /* NunitoSans-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 118E354228B24013B9677A4D /* NunitoSans-Black.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,6 +43,7 @@
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* TellTheBookTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TellTheBookTests.m; sourceTree = "<group>"; };
 		109258664365B170ED398A4C /* Pods-TellTheBook.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TellTheBook.debug.xcconfig"; path = "Target Support Files/Pods-TellTheBook/Pods-TellTheBook.debug.xcconfig"; sourceTree = "<group>"; };
+		118E354228B24013B9677A4D /* NunitoSans-Black.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "NunitoSans-Black.ttf"; path = "../src/assets/fonts/NunitoSans-Black.ttf"; sourceTree = "<group>"; };
 		126ECB880374CEDE1A967D5D /* libPods-TellTheBook.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TellTheBook.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07F961A680F5B00A75B9A /* TellTheBook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TellTheBook.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = TellTheBook/AppDelegate.h; sourceTree = "<group>"; };
@@ -38,11 +51,23 @@
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = TellTheBook/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = TellTheBook/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = TellTheBook/main.m; sourceTree = "<group>"; };
+		1DFCF89ED5C74DA29AFA7742 /* Cinzel-ExtraBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Cinzel-ExtraBold.ttf"; path = "../src/assets/fonts/Cinzel-ExtraBold.ttf"; sourceTree = "<group>"; };
 		2792C886311FF3F441E62ED5 /* Pods-TellTheBook-TellTheBookTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TellTheBook-TellTheBookTests.release.xcconfig"; path = "Target Support Files/Pods-TellTheBook-TellTheBookTests/Pods-TellTheBook-TellTheBookTests.release.xcconfig"; sourceTree = "<group>"; };
 		58F3E1456E034C1266DB8E53 /* libPods-TellTheBook-TellTheBookTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TellTheBook-TellTheBookTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A6C40E6A941580F683F769E /* Pods-TellTheBook-TellTheBookTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TellTheBook-TellTheBookTests.debug.xcconfig"; path = "Target Support Files/Pods-TellTheBook-TellTheBookTests/Pods-TellTheBook-TellTheBookTests.debug.xcconfig"; sourceTree = "<group>"; };
+		621AB34F74454F78B65BA144 /* NunitoSans-Light.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "NunitoSans-Light.ttf"; path = "../src/assets/fonts/NunitoSans-Light.ttf"; sourceTree = "<group>"; };
+		6570BD0D694E4332ADCB9E0C /* NunitoSans-SemiBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "NunitoSans-SemiBold.ttf"; path = "../src/assets/fonts/NunitoSans-SemiBold.ttf"; sourceTree = "<group>"; };
+		6D278AE66E7646ACA9B16FCC /* Cinzel-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Cinzel-Bold.ttf"; path = "../src/assets/fonts/Cinzel-Bold.ttf"; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = TellTheBook/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		85DC1858C8234B5AAB412E43 /* NunitoSans-ExtraBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "NunitoSans-ExtraBold.ttf"; path = "../src/assets/fonts/NunitoSans-ExtraBold.ttf"; sourceTree = "<group>"; };
+		917913CAECA44D509276AAEC /* Cinzel-SemiBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Cinzel-SemiBold.ttf"; path = "../src/assets/fonts/Cinzel-SemiBold.ttf"; sourceTree = "<group>"; };
+		A1ED62B021164C85A072D6CB /* NunitoSans-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "NunitoSans-Regular.ttf"; path = "../src/assets/fonts/NunitoSans-Regular.ttf"; sourceTree = "<group>"; };
+		A2CDF2D511264D389CE29B0D /* Roboto-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Roboto-Regular.ttf"; path = "../src/assets/fonts/Roboto-Regular.ttf"; sourceTree = "<group>"; };
 		B42743EB0733526E9F7BBDC2 /* Pods-TellTheBook.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TellTheBook.release.xcconfig"; path = "Target Support Files/Pods-TellTheBook/Pods-TellTheBook.release.xcconfig"; sourceTree = "<group>"; };
+		B7E527193AA947F597F4941C /* Cinzel-Medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Cinzel-Medium.ttf"; path = "../src/assets/fonts/Cinzel-Medium.ttf"; sourceTree = "<group>"; };
+		C5756AF9108C469785C2FA8F /* Cinzel-Black.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Cinzel-Black.ttf"; path = "../src/assets/fonts/Cinzel-Black.ttf"; sourceTree = "<group>"; };
+		D03BA7DF22634B27A6A83FDD /* NunitoSans-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "NunitoSans-Bold.ttf"; path = "../src/assets/fonts/NunitoSans-Bold.ttf"; sourceTree = "<group>"; };
+		DB307D7D1147485FB2217D46 /* Cinzel-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Cinzel-Regular.ttf"; path = "../src/assets/fonts/Cinzel-Regular.ttf"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
@@ -106,6 +131,26 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		4D98266B09C84C7E9D0E3EA3 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A2CDF2D511264D389CE29B0D /* Roboto-Regular.ttf */,
+				C5756AF9108C469785C2FA8F /* Cinzel-Black.ttf */,
+				6D278AE66E7646ACA9B16FCC /* Cinzel-Bold.ttf */,
+				1DFCF89ED5C74DA29AFA7742 /* Cinzel-ExtraBold.ttf */,
+				B7E527193AA947F597F4941C /* Cinzel-Medium.ttf */,
+				DB307D7D1147485FB2217D46 /* Cinzel-Regular.ttf */,
+				917913CAECA44D509276AAEC /* Cinzel-SemiBold.ttf */,
+				118E354228B24013B9677A4D /* NunitoSans-Black.ttf */,
+				D03BA7DF22634B27A6A83FDD /* NunitoSans-Bold.ttf */,
+				85DC1858C8234B5AAB412E43 /* NunitoSans-ExtraBold.ttf */,
+				621AB34F74454F78B65BA144 /* NunitoSans-Light.ttf */,
+				A1ED62B021164C85A072D6CB /* NunitoSans-Regular.ttf */,
+				6570BD0D694E4332ADCB9E0C /* NunitoSans-SemiBold.ttf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
 		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
 			isa = PBXGroup;
 			children = (
@@ -122,6 +167,7 @@
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				AEB5D9C8CF598D335ACB9041 /* Pods */,
+				4D98266B09C84C7E9D0E3EA3 /* Resources */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -145,7 +191,6 @@
 				5A6C40E6A941580F683F769E /* Pods-TellTheBook-TellTheBookTests.debug.xcconfig */,
 				2792C886311FF3F441E62ED5 /* Pods-TellTheBook-TellTheBookTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -245,6 +290,18 @@
 			files = (
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				AE0EAA8BF6584ADCB34A4203 /* Cinzel-Black.ttf in Resources */,
+				BA10544D4F434C59A2FD8F87 /* Cinzel-Bold.ttf in Resources */,
+				123F61391CAB4C89B9B50332 /* Cinzel-ExtraBold.ttf in Resources */,
+				4FA3DBA5D12747B0AD6072AF /* Cinzel-Medium.ttf in Resources */,
+				CB48A1CA58CD471E8495E0E3 /* Cinzel-Regular.ttf in Resources */,
+				497763292F4D451E8F3D159B /* Cinzel-SemiBold.ttf in Resources */,
+				FDEFAF0247CC4CA8A3DC012E /* NunitoSans-Black.ttf in Resources */,
+				1EED311B26694955A786DB9F /* NunitoSans-Bold.ttf in Resources */,
+				8E79FBAE2BBF4FC79D6121EB /* NunitoSans-ExtraBold.ttf in Resources */,
+				C9F864FE2E1D43399E66AA28 /* NunitoSans-Light.ttf in Resources */,
+				2A22961BD3934B72AA4F4698 /* NunitoSans-Regular.ttf in Resources */,
+				A3EF7CDCB5214BB9A3C56432 /* NunitoSans-SemiBold.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -1,4 +1,5 @@
 import { StyleSheet } from 'react-native';
+import { FONTS } from '@/styles';
 
 const commonStyles = StyleSheet.create({
   commonContainer: {
@@ -13,18 +14,19 @@ const commonStyles = StyleSheet.create({
 
 export const styles = StyleSheet.create({
   container: {
-    backgroundColor: '#000',
     ...commonStyles.commonContainer,
+    backgroundColor: '#000',
   },
   disabledContainer: {
-    backgroundColor: '#cccccc',
     ...commonStyles.commonContainer,
+    backgroundColor: '#cccccc',
   },
   text: {
+    ...FONTS.s_NunitoSansRegular_Center,
     color: '#fff',
-    fontWeight: 'bold',
   },
   disabledText: {
+    ...FONTS.s_NunitoSansRegular_Center,
     color: '#666666',
   },
 });

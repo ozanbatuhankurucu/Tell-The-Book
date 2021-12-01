@@ -1,4 +1,5 @@
 import { StyleSheet } from 'react-native';
+import { FONTS } from '@/styles';
 
 export const styles = StyleSheet.create({
   safeAreaContainer: {
@@ -11,7 +12,7 @@ export const styles = StyleSheet.create({
     paddingHorizontal: 20,
   },
   pageTitle: {
-    fontSize: 15,
+    ...FONTS.s_CinzelRegular,
     marginBottom: 10,
   },
   linkContainer: {
@@ -19,6 +20,7 @@ export const styles = StyleSheet.create({
     marginVertical: 20,
   },
   linkText: {
+    ...FONTS.s_NunitoSansRegular,
     marginHorizontal: 10,
   },
 });

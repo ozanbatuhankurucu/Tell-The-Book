@@ -60,7 +60,8 @@ const AppContainer: React.FC = () => {
           flex: 1,
           justifyContent: 'center',
           alignItems: 'center',
-        }}>
+        }}
+      >
         <ActivityIndicator />
       </View>
     );
@@ -75,7 +76,8 @@ const AppContainer: React.FC = () => {
         onReady={() => {
           // @ts-ignore
           isReadyRef.current = true;
-        }}>
+        }}
+      >
         <RootNavigator />
       </NavigationContainer>
     </SafeAreaProvider>

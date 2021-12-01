@@ -19,7 +19,8 @@ export default function Input({
         onChangeText={(text) => onChange(name, text)}
         onFocus={handleOnFocus}
         onBlur={handleOnBlur}
-        secureTextEntry={secureTextEntry}></TextInput>
+        secureTextEntry={secureTextEntry}
+      ></TextInput>
     </View>
   );
 }
